@@ -61,7 +61,7 @@ function Homepage() {
             <Link to={"/cryptocurrencies"}>Show more</Link>
           </Title>
         </div>
-        <Cryptocurrencies simplified />
+        <Cryptocurrencies simplified={true} />
         <div className="home-heading-container-div">
           <Title level={2} className="home-title-div">
             Latest Crypto News
@@ -70,7 +70,7 @@ function Homepage() {
             <Link to={"/news"}>Show more</Link>
           </Title>
         </div>
-        <News simplified />
+        <News simplified={true} />
       </>
     </div>
   );
